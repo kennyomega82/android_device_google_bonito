@@ -20,7 +20,7 @@ PRODUCT_MAKEFILES := \
 
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bliss_bonito.mk \
-    $(LOCAL_DIR)/bliss_sargo.mk
+    $(LOCAL_DIR)/havoc_sargo.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_bonito-userdebug \
@@ -28,4 +28,4 @@ COMMON_LUNCH_CHOICES := \
 
 COMMON_LUNCH_CHOICES += \
     bliss_bonito-userdebug \
-    bliss_sargo-userdebug
+    havoc_sargo-userdebug
